@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+}
+  
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  /*background: linear-gradient(to bottom, #202020, #111119);*/
+  -ms-user-select: none; 
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
+}
+
+.container {
+  position: absolute;
+  width: 700px;
+  padding: 0;
+  margin: 0;
+  height: 475px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aliceblue;
+  border-radius: 7px;
+  background: local;
+}
+
+.mainTitle {
+  position: relative;
+  color: white;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 70px;
+  top: 10px;
+  transition: all 500ms ease;
+}
+
+.mainTitle:hover {
+  color: cyan;
+}
+
+.desc {
+  position: relative;
+  top: 10px;
+  font-size: 45px;
+  color: white;
+  font-family: 'Inter Tight', sans-serif;
+  transition: all 500ms ease;
+}
+
+.desc:hover {
+  color: cyan;
+}
+
+.mine {
+  transition: all 200ms ease;
+}
+
+.mine:hover {
+  color: green;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.java {
+  transition: all 500ms ease;
+}
+
+.java:hover {
+  color: orange;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.githubCont {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  left: 40px;
+  transition: all 200ms ease;
+  width: 40px;
+}
+
+.telegramCont {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  left: 490px;
+  top: -170px;
+  transition: all 200ms ease;
+  width: 40px;
+}
+
+.lolz {
+  position: relative;
+  top: -93px;
+  left: 260px;
+  padding: 0;
+  margin: 0;
+}
+
+.lolz a {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  transition: all 200ms ease;
+}
+
+.lolz a:hover {
+  color: green;
+}
